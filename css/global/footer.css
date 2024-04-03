@@ -6,15 +6,12 @@
   display: grid;
   grid-template-columns: 3fr 5fr 4fr;
   gap: 40px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer h3 {
   margin-bottom: 32px;
-}
-
-.footer li {
-  margin-bottom: 16px;
 }
 
 .footer-contato ul {
@@ -28,6 +25,10 @@
   height: 2px;
   background: var(--cor-11);
   margin-top: 16px;
+}
+
+.footer li {
+  margin-bottom: 16px;
 }
 
 .footer-redes {
@@ -48,7 +49,6 @@
   .footer > img {
     display: none;
   }
-
   .footer {
     grid-template-columns: 1fr 1fr;
   }
@@ -59,7 +59,6 @@
     grid-template-columns: 1fr;
     gap: 60px;
   }
-
   .footer-copy {
     margin-top: 0px;
   }
