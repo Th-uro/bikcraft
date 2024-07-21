@@ -5,6 +5,7 @@
 
 /* Utilidades */
 @import "./utilities/cores.css";
+@import "./utilities/animacao.css";
 @import "./utilities/formulario.css";
 @import "./utilities/componentes.css";
 
